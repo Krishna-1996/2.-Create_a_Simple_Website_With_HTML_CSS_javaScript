@@ -45,3 +45,38 @@ Part 5:
 -> Loading light or dark themes based on system preferences
 -> Developing toggle logic to switch between light and dark themes manually
 Saving toggle settings in local storage
+
+***********************************************
+#Functional Requrement and Notes
+
+
+=>Light dark mode toggle --> takes sytem pref by default, but can overright with toggle
+
+    -> What HTML markup(accessible) --> https://scottaohara.github.io/ally_styled_form_control/src/radio-button--switch/
+
+    Use fieldset, legend, radio inputs
+
+    -> Switching between lgiht and dark mode via JS and  Prefer Color Scheme Media Query --> https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme
+
+    -> Three options light dark and system preference --> http://codepen.io/renddrew/pen/bRomab?editors=1100
+
+=>CSS variables (Custom Propersties) --> https://css-tricks.com/updating-a-css-variable-with-javascript/
+
+=> Accessibility
+    ->Use correct heading tags
+    -> Screenreader only text for card titles/username --> https://www.accessibility-developer-guide.com/examples/hiding-elements/visually
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+

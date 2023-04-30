@@ -1,0 +1,42 @@
+//For different orientation we use media query and this is a best alternative for using media query every time . 
+//Rather than we use breakpoint and defin the cbreakpoint cod here and then we can use same code anywhere. 
+//Just like function does It also help us to write same code again and again. 
+
+ // 640px, 1150px, 1400px orientation above 
+$breakpoints-up: (
+	'medium': '40em',
+	'large': '71.875em',
+	'xlarge': '87.5em',
+);
+
+// 639px, 1149px, 1399px orientation less than
+$breakpoints-down: (
+	'small': '39.9375em',
+	'medium': '71.8125em',
+	'large': '87.4375em',
+);
+//mixin is used to use the same style for more time at different locatio n 
+@mixin breakpoint($size) {
+	@media (min-width: map-get($breakpoints-up, $size)) {
+		@content;
+	}
+}
+
+@mixin breakpoint-down($size) {
+	@media (max-width: map-get($breakpoints-down, $size)) {
+		@content;
+	}
+}
+/*
+How to use Breakpoitn and media query in code 
+h1 {
+    @include breakpoint(large){
+        font-size: 3rem
+     } 
+} 
+@media (min-width: 87.5rem){
+    h1 {
+        font-size: 3res;
+    }
+}
+*/
