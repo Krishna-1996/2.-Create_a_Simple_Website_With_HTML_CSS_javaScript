@@ -8,7 +8,7 @@ By taking this project, I will be able to:
 -> Toggle color themes based on their preferences
 -> The project is divided into five parts:
 
-Part 1: 
+Part 1:
 -> Laying the Foundation
 -> Introduction
 -> Understanding functional design requirements
@@ -16,13 +16,13 @@ Part 1:
 -> Updating CSS custom properties with JS
 -> Implementing screen reader-only text
 
-Part 2: 
+Part 2:
 -> Preparing the Development Environment
 -> Creating a GitHub repository
 -> Setting up SCSS and JS files
 -> Establishing a Gulp workflow
 
-Part 3: 
+Part 3:
 -> Diving into the Design
 -> Analyzing the design
 -> Constructing the top bar
@@ -30,7 +30,7 @@ Part 3:
 -> Styling the top bar
 -> Styling the theme toggle and enhancing accessibility
 
-Part 4: 
+Part 4:
 -> Building the Social Media Dashboard
 -> Introduction to BEM and planning class names
 -> Adding markup and SCSS selectors for the cards
@@ -39,16 +39,16 @@ Part 4:
 -> Styling the top bars on the cards
 -> Implementing bottom card markup and styles
 
-Part 5: 
+Part 5:
 -> Enhancing the Theme Toggle
 -> Modifying the toggle based on user comments
 -> Loading light or dark themes based on system preferences
 -> Developing toggle logic to switch between light and dark themes manually
 Saving toggle settings in local storage
 
-***********************************************
-#Functional Requrement and Notes
+---
 
+#Functional Requrement and Notes
 
 =>Light dark mode toggle --> takes sytem pref by default, but can overright with toggle
 
@@ -63,20 +63,7 @@ Saving toggle settings in local storage
 =>CSS variables (Custom Propersties) --> https://css-tricks.com/updating-a-css-variable-with-javascript/
 
 => Accessibility
-    ->Use correct heading tags
-    -> Screenreader only text for card titles/username --> https://www.accessibility-developer-guide.com/examples/hiding-elements/visually
+->Use correct heading tags
+-> Screenreader only text for card titles/username --> https://www.accessibility-developer-guide.com/examples/hiding-elements/visually
 
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
+npm install @babel/core @babel/preset-env postcss autoprefixer browser-sync cssnano dart-sass gulp gulp-babel gulp-postcss gulp-sass
